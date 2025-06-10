@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Widgets</title>
+    <!-- Links para CSS e bibliotecas externas -->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+
+<body>
+
+    <!-- A barra lateral esquerda (Sidebar) -->
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <div class="sidebar-dots">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!-- Widget de Temperatura (fixo na sidebar) -->
+        <div id="widget-weather" class="widget">
+            <h3><i class="fas fa-cloud-sun"></i> Temperatura</h3>
+            <div class="widget-content"></div>
+        </div>
+        <!-- Widget de Bloco de Notas (fixo na sidebar) -->
+        <div id="widget-notepad" class="widget">
+            <!-- O conteúdo deste widget será gerado pelo JavaScript -->
+        </div>
+    </div>
+
+    <!-- A área principal do dashboard com a grade de widgets -->
+    <main class="dashboard-grid">
+        <!-- Cada div aqui é um espaço reservado para um widget específico -->
+        <div id="widget-clock" class="widget"></div>
+        <div id="widget-map" class="widget"></div>
+        <div id="widget-calculator" class="widget"></div>
+        <div id="widget-drawing" class="widget"></div>
+        <div id="widget-tictactoe" class="widget"></div>
+        <div id="widget-todo" class="widget"></div>
+    </main>
+
+    <!-- Link para o nosso arquivo JavaScript principal -->
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
