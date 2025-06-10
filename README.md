@@ -1,5 +1,5 @@
 # 🚀 Widgets Funcionais
-
+<br>
 Bem-vindo(a) ao repositório dos Widgets Funcionais! Nosso projeto busca oferecer aos usuários widdgets interativos e divertidos.
 
 ---
@@ -13,7 +13,7 @@ Conheça quais widdgets foram usados:
 * **Jogo da Velha**: Um jogo interessante para você brincar com seu colega!
 * **Lista de Tarefas**: Organize seu dia criando e gerenciando suas tarefas com facilidade!
 * **Música**: Controle sua playlist e curta suas músicas favoritas diretamente pelo widget!
-* * **Temperatura**: Verifique a temperatura atual da sua localização!
+* **Temperatura**: Verifique a temperatura atual da sua localização!
 * **Calculadora**: Realize cálculos básicos e complexos de forma rápida e eficiente!
 * **Calendário**: Mantenha-se organizado com um calendário completo para agendar eventos e compromissos!
 * **Quadro de Desenho**: Solte a criatividade em um quadro interativo para desenhar e rabiscar!
@@ -28,15 +28,6 @@ Conheça os talentos que tornaram este projeto possível:
 | [![Sara Cotrim](https://github.com/saraaa321.png?size=70)](https://github.com/saraaa123) | [![Wuallan D'Avilla](https://github.com/WuallanDAvilla.png?size=70)](https://github.com/WuallanDAvilla) | [![Letícia Missias](https://github.com/leticia1missias.png?size=70)](https://github.com/leticia1missias) |
 | :--------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: |
 | **Sara Cotrim** | **Wuallan D'Avilla** | **Letícia Missias** |
-
----
-
-### 📚 Principais Funcionalidades
-
-Descubra o que você pode encontrar e fazer com nossos widgets:
-
-* **Mapa**: Acesse rapidamente todos os widgets disponíveis e explore suas funcionalidades interativas.
-
 
 ---
 
