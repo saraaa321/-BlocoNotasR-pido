@@ -17,7 +17,7 @@ Descubra o que você pode encontrar e fazer com nossos widgets:
 
 Conheça os talentos que tornaram este projeto possível:
 
-| [![Sara Cotrim](https://github.com/saraaa321.png?size=70)](https://github.com/saraaa123) | [![Wuallan D'Avilla](https://github.com/WualanDAvilla.png?size=70)](https://github.com/WuallanDAvilla) | [![Letícia Missias](https://github.com/saraaa321.png?size=70)](https://github.com/saraaa123) |
+| [![Sara Cotrim](https://github.com/saraaa321.png?size=70)](https://github.com/saraaa123) | [![Wuallan D'Avilla](https://github.com/WuallanDAvilla.png?size=70)](https://github.com/WuallanDAvilla) | [![Letícia Missias](https://github.com/leticia1missias.png?size=70)](https://github.com/leticia1missias) |
 | :--------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: |
 | **Sara Cotrim** | **Wuallan D'Avilla** | **Letícia Missias** |
 
