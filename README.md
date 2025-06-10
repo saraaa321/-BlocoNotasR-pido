@@ -1,8 +1,5 @@
 # 🎮 Widdgets Funcionais
 
-
-O **Gabarita Mente** é uma plataforma interativa que oferece aos estudantes uma maneira mais leve e envolvente de se prepararem para vestibulares e concursos. Focando na usabilidade e simplicidade, o sistema busca não apenas melhorar o desempenho dos usuários, mas também despertar o interesse contínuo pelo aprendizado.
-
 ---
 
 ### 📚 Funcionalidades Principais
