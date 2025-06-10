@@ -4,12 +4,16 @@ Bem-vindo(a) ao repositório dos Widgets Funcionais! Nosso projeto busca oferece
 
 ---
 
-### 📚 Principais Funcionalidades
+### Nossos Widdgets
 
-Descubra o que você pode encontrar e fazer com nossos widgets:
+Conheça quais widdgets foram usados:
 
-* **Página Inicial Dinâmica**: Acesse rapidamente todos os widgets disponíveis e explore suas funcionalidades interativas.
-* **Seção "Sobre Nós"**: Conheça a equipe dedicada por trás deste projeto, nossa missão e paixão por desenvolver soluções inovadoras.
+* **Se Localize**: Mapa interativo que permite você se localizar geograficamente!
+* **Relógio"**: Aqui temos um relógio analógico para você saber o horário atual!
+* **Jogo da Velha**: Um jogo interessante para você brincar com seu colega!
+* **Relógio"**: Aqui temos um relógio analógico para você saber o horário atual!
+* **Relógio"**: Aqui temos um relógio analógico para você saber o horário atual.
+
 
 ---
 
