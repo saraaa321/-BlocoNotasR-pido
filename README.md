@@ -23,6 +23,15 @@ Conheça os talentos que tornaram este projeto possível:
 
 ---
 
+### 📚 Principais Funcionalidades
+
+Descubra o que você pode encontrar e fazer com nossos widgets:
+
+* **Mapa**: Acesse rapidamente todos os widgets disponíveis e explore suas funcionalidades interativas.
+
+
+---
+
 ### ⚙️ Tecnologias Utilizadas
 
 Este projeto foi construído com as seguintes tecnologias:
