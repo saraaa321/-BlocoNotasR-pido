@@ -25,7 +25,7 @@ Conheça os talentos que tornaram este projeto possível:
 
 ### ⚙️ Tecnologias Utilizadas
 
-Este projeto foi construído com as seguintes tecnologias robustas, garantindo performance e escalabilidade:
+Este projeto foi construído com as seguintes tecnologias:
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" width="40px" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" width="40px" />
