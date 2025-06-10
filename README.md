@@ -1,0 +1,59 @@
+# 🚀 Widgets Funcionais
+<br>
+Bem-vindo(a) ao repositório dos Widgets Funcionais! Nosso projeto busca oferecer aos usuários widdgets interativos e divertidos.
+
+---
+
+### Nossos Widdgets
+
+Conheça quais widdgets foram usados:
+
+* **Se Localize**: Mapa interativo que permite você se localizar geograficamente!
+* **Relógio**: Aqui temos um relógio analógico para você saber o horário atual!
+* **Jogo da Velha**: Um jogo interessante para você brincar com seu colega!
+* **Lista de Tarefas**: Organize seu dia criando e gerenciando suas tarefas com facilidade!
+* **Música**: Controle sua playlist e curta suas músicas favoritas diretamente pelo widget!
+* **Temperatura**: Verifique a temperatura atual da sua localização!
+* **Calculadora**: Realize cálculos básicos e complexos de forma rápida e eficiente!
+* **Calendário**: Mantenha-se organizado com um calendário completo para agendar eventos e compromissos!
+* **Quadro de Desenho**: Solte a criatividade em um quadro interativo para desenhar e rabiscar!
+
+
+---
+
+### 👨‍💻 Nossos Desenvolvedores
+
+Conheça os talentos que tornaram este projeto possível:
+
+| [![Sara Cotrim](https://github.com/saraaa321.png?size=70)](https://github.com/saraaa123) | [![Wuallan D'Avilla](https://github.com/WuallanDAvilla.png?size=70)](https://github.com/WuallanDAvilla) | [![Letícia Missias](https://github.com/leticia1missias.png?size=70)](https://github.com/leticia1missias) |
+| :--------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: |
+| **Sara Cotrim** | **Wuallan D'Avilla** | **Letícia Missias** |
+
+---
+
+### ⚙️ Tecnologias Utilizadas
+
+Este projeto foi construído com as seguintes tecnologias:
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" width="40px" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" width="40px" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" width="40px" />
+
+---
+
+### 🚀 Como Rodar o Projeto Localmente
+
+Siga estes passos simples para ter o projeto rodando em sua máquina:
+
+1.  **Clone o repositório**:
+    ```bash
+    git clone [https://github.com/SeuUsuario/-BlocoNotasR-pido.git](https://github.com/SeuUsuario/-BlocoNotasR-pido.git)
+    ```
+
+2.  **Navegue até o diretório do projeto**:
+    ```bash
+    cd -BlocoNotasR-pido
+    ```
+
+---
+
