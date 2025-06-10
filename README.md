@@ -35,5 +35,5 @@
 1. **Clone o repositório**
 
 ```bash
-git clone https://github.com/SeuUsuario/GabaritaMente.git
-cd GabaritaMente
+git clone https://github.com/SeuUsuario/-BlocoNotasR-pido.git
+cd -BlocoNotasR-pido
