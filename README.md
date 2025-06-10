@@ -9,10 +9,14 @@ Bem-vindo(a) ao repositório dos Widgets Funcionais! Nosso projeto busca oferece
 Conheça quais widdgets foram usados:
 
 * **Se Localize**: Mapa interativo que permite você se localizar geograficamente!
-* **Relógio"**: Aqui temos um relógio analógico para você saber o horário atual!
+* **Relógio**: Aqui temos um relógio analógico para você saber o horário atual!
 * **Jogo da Velha**: Um jogo interessante para você brincar com seu colega!
-* **Relógio"**: Aqui temos um relógio analógico para você saber o horário atual!
-* **Relógio"**: Aqui temos um relógio analógico para você saber o horário atual.
+* **Lista de Tarefas**: Organize seu dia criando e gerenciando suas tarefas com facilidade!
+* **Música**: Controle sua playlist e curta suas músicas favoritas diretamente pelo widget!
+* * **Temperatura**: Verifique a temperatura atual da sua localização!
+* **Calculadora**: Realize cálculos básicos e complexos de forma rápida e eficiente!
+* **Calendário**: Mantenha-se organizado com um calendário completo para agendar eventos e compromissos!
+* **Quadro de Desenho**: Solte a criatividade em um quadro interativo para desenhar e rabiscar!
 
 
 ---
