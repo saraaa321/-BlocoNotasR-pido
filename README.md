@@ -1,6 +1,6 @@
 # 🚀 Widgets Funcionais
 
-Bem-vindo(a) ao repositório dos Widgets Funcionais! Este projeto oferece uma coleção de widgets úteis e dinâmicos para aprimorar suas aplicações web, focando em usabilidade e design intuitivo.
+Bem-vindo(a) ao repositório dos Widgets Funcionais! Nosso projeto busca oferecer aos usuários widdgets interativos e divertidos.
 
 ---
 
