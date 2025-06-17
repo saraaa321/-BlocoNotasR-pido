@@ -4,11 +4,18 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif;
-  background-color: #f0f2f5;
-  color: #333;
+
+  /* MODIFICAÇÃO: Aplicação da imagem de fundo */
+  background-image: url("../assets/background.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #f0f0f0; /* Cor de texto padrão alterada para claro */
+
   display: flex;
   height: 100vh;
   overflow: hidden;
@@ -21,15 +28,19 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  /* Adicionado para um leve efeito de separação */
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 .sidebar-header {
   padding: 0 10px;
 }
+
 .sidebar-dots span {
   display: block;
   width: 12px;
   height: 12px;
-  background-color: #e0e0e0;
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 50%;
   margin-bottom: 8px;
 }
@@ -42,25 +53,33 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 20px;
+  overflow-y: auto; /* Permite rolagem apenas nos widgets */
 }
 
 /* --- ESTILO GERAL DO WIDGET --- */
 .widget {
-  background-color: #ffffff;
+  /* MODIFICAÇÃO: Efeito "vidro fosco" para combinar com o fundo */
+  background-color: rgba(25, 25, 40, 0.65);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 20px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+
   padding: 20px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
 }
+
 .widget h3 {
   margin-bottom: 15px;
   font-size: 1.2em;
   font-weight: 600;
   text-align: center;
-  color: #2c3e50;
+  color: #ffffff; /* Cor do título alterada para branco */
 }
+
 .widget-content {
   flex-grow: 1;
   display: flex;
@@ -73,19 +92,24 @@ body {
   background: none;
   box-shadow: none;
   padding: 0;
+  border: none;
+  backdrop-filter: none;
 }
+
 #widget-weather h3,
 #widget-notepad h3 {
-  color: #888;
+  color: #bbb; /* Cor ajustada para o tema escuro */
   text-align: left;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 1.1em;
 }
+
 #widget-weather h3 i,
 #widget-notepad h3 i {
   margin-right: 5px;
 }
+
 .widget-weather-container {
   background: linear-gradient(45deg, #50e3c2, #4a90e2);
   color: white;
@@ -93,24 +117,29 @@ body {
   padding: 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
+
 .weather-main .temp {
   font-size: 52px;
   font-weight: 400;
 }
+
 .weather-alert {
   font-size: 14px;
   opacity: 0.9;
   margin-top: 5px;
 }
+
 #widget-notepad {
   flex-grow: 1;
 }
+
 .notepad-textarea {
   width: 100%;
   height: 100%;
   flex-grow: 1;
-  border: none;
-  background-color: #f8f9fa;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #f0f0f0;
   border-radius: 12px;
   padding: 15px;
   font-family: inherit;
@@ -139,10 +168,10 @@ body {
   align-items: center;
 }
 .calendar-container {
-  background-color: #f0f8ff;
+  background-color: rgba(255, 255, 255, 0.05);
   border-radius: 18px;
   padding: 15px;
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
 }
 .calendar-header {
   color: #e74c3c;
@@ -161,7 +190,7 @@ body {
 }
 .day-name {
   font-weight: 600;
-  color: #333;
+  color: #ccc;
 }
 .day.today {
   background-color: #e74c3c;
@@ -174,7 +203,7 @@ body {
   height: 150px;
   background: #1e1e1e;
   border-radius: 50%;
-  border: 8px solid #f0f0f0;
+  border: 8px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.5);
   position: relative;
 }
@@ -230,7 +259,7 @@ body {
   font-size: 1.1em;
 }
 .digital-time {
-  background-color: #eaf6ff;
+  background-color: rgba(0, 0, 0, 0.2);
   padding: 8px 18px;
   border-radius: 20px;
   font-family: "Helvetica Neue", sans-serif;
@@ -255,7 +284,8 @@ body {
 }
 .calculator-display {
   grid-column: 1 / -1;
-  background-color: #f1f3f5;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
   text-align: right;
   padding: 15px;
   font-size: 2em;
@@ -266,14 +296,16 @@ body {
   border: none;
   border-radius: 12px;
   cursor: pointer;
-  background-color: #fff;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
 .calc-btn:active {
   transform: translateY(1px);
+  background-color: rgba(255, 255, 255, 0.15);
 }
 .calc-btn.operator {
-  background-color: #f8f9fa;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 .calc-btn.equals {
   background-color: #2ecc71;
@@ -282,7 +314,7 @@ body {
 
 /* --- WIDGET QUADRO DE DESENHO --- */
 #widget-drawing .drawing-canvas {
-  border: 1px solid #dee2e6;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 8px;
   cursor: crosshair;
   width: 100%;
@@ -298,14 +330,14 @@ body {
 
 /* --- WIDGET JOGO DA VELHA --- */
 #widget-tictactoe .widget-content {
-  justify-content: space-between; /* Empurra o status/grid para cima e o botão para baixo */
+  justify-content: space-between;
   text-align: center;
 }
 .tictactoe-status {
   font-size: 1.1em;
   font-weight: 500;
-  height: 24px; /* Garante um espaço consistente */
-  text-align: left; /* Alinhado à esquerda como na imagem */
+  height: 24px;
+  text-align: left;
   padding-left: 10px;
 }
 .tictactoe-grid {
@@ -317,7 +349,7 @@ body {
 .cell {
   width: 70px;
   height: 70px;
-  background-color: #f1f3f5;
+  background-color: rgba(0, 0, 0, 0.2);
   border-radius: 12px;
   display: flex;
   justify-content: center;
@@ -350,18 +382,18 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 12px 5px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   font-size: 1em;
   cursor: pointer;
 }
 .todo-list li.completed {
   text-decoration: line-through;
-  color: #aaa;
+  color: #888;
 }
 .todo-list .delete-btn {
   background: none;
   border: none;
-  color: #ccc;
+  color: #777;
   cursor: pointer;
   font-size: 1.1em;
   visibility: hidden;
@@ -382,7 +414,9 @@ body {
 }
 .todo-form input {
   flex-grow: 1;
-  border: 1px solid #ddd;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
   border-radius: 8px;
   padding: 10px;
   font-size: 1em;
@@ -395,4 +429,28 @@ body {
   padding: 0 20px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+/* LINK "SOBRE NÓS" NA SIDEBAR */
+.sidebar-about-link {
+  margin-top: auto;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-about-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-about-link a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
