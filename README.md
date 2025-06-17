@@ -12,7 +12,6 @@ Conheça quais widdgets foram usados:
 * **Relógio**: Aqui temos um relógio analógico para você saber o horário atual!
 * **Jogo da Velha**: Um jogo interessante para você brincar com seu colega!
 * **Lista de Tarefas**: Organize seu dia criando e gerenciando suas tarefas com facilidade!
-* **Música**: Controle sua playlist e curta suas músicas favoritas diretamente pelo widget!
 * **Temperatura**: Verifique a temperatura atual da sua localização!
 * **Calculadora**: Realize cálculos básicos e complexos de forma rápida e eficiente!
 * **Calendário**: Mantenha-se organizado com um calendário completo para agendar eventos e compromissos!
